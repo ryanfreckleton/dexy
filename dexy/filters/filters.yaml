@@ -1034,7 +1034,7 @@ rst2beamer:
     class: SubprocessFilter
     help: Runs rst2beamer command (docutils).
     tags: [reStructuredText]
-    executable: rst2beamer.py
+    executable: rst2beamer
     input-extensions: [".rst", ".txt"]
     output-extensions: [".tex"]
     version-command: "rst2beamer --version"
